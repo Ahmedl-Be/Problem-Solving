@@ -7,7 +7,6 @@ RECURSION
 // Helper Method Recursion
 function collectOdd(arr){
 let result = []
-    
     function helper(input){
         if(input.length ===0) return
         if(input[0]%2 !==0) {
@@ -15,11 +14,9 @@ let result = []
         }
         helper(input.slice(1))
     }
-    
     helper(arr)
     return result;
 }
-
 collectOdd([1,2,3,4,5,6,7,8,9])
 
 
