@@ -10,7 +10,6 @@ function NaiveSearch(long,short){
     }
     return count;
 }
-
 console.log(NaiveSearch("asd fgasd asd","asd"))
 
 /**************************************************** */
