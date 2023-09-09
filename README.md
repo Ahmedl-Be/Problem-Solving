@@ -5,3 +5,4 @@
 
 ### Sliding Window Pattern
 ### Bubble Sort
+### Binary Search
